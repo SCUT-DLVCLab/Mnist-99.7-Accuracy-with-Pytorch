@@ -31,7 +31,7 @@
 ### 如何启动GUI
 ![Image text](https://raw.githubusercontent.com/Mountchicken/Mnist-99.7-Accuracy-with-Pytorch/main/Imagesforgithub/GUI.jpg)
 - `pip install PyQt5`
-- `pip install PyQt5-tools'
+- `pip install PyQt5-tools`
 - 运行文件`main_gui.py`
 
 

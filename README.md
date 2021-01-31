@@ -1,7 +1,7 @@
 
 ##简介
 改代码设计了一个四层卷积神经网络用以识别MNIST数据集，最终训练的得的结果中，单个网络在测试集上可到到最高`99.67%`的识别率，通过`级联九个神经网络`，可以使得测试集达到`99.7%`的准确率
-
+![Image text](https://raw.githubusercontent.com/Mountchicken/Mnist-99.7-Accuracy-with-Pytorch/main/Imagesforgithub/network.jpg)
 该网络体积小，30个epochs的训练可以达到99.67%的准确率，耗时4分钟左右。同时在代码中集成了tensorboard调参方法以及一个由PyQt5设计的APP
 
 ## 项目结构

@@ -22,6 +22,9 @@
 
 ## 如何使用
 
+### 如何预测
+-`Predict.py`文件中，line24选择测图片即可
+
 ### 如何使用tensorboard进行调参训练
 ![Image text](https://raw.githubusercontent.com/Mountchicken/Mnist-99.7-Accuracy-with-Pytorch/main/Imagesforgithub/tensorboard.jpg)
 - `pip install tensorboard`

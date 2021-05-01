@@ -25,11 +25,11 @@ if __name__=='__main__':
     
     if Load_from_file:
        
-        image=Image.open('E:\LearningStuff\DLcode\Pytorch\Mnist\Images\ii.jpg').convert('L')
+        image=Image.open('Images/new2.jpg').convert('L')
         pred=predict(image)
     else :
         batch=get_test_data_loader(batch_size=1)
         image,label=next(iter(batch))
         pred=predict(image)
         print("the Prediction of ",str(label.numpy())," is:",str(pred.numpy()))
-    print(pred)
+    print('The predition is:{}'.format(pred))

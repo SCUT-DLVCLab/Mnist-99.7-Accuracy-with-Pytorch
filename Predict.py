@@ -32,4 +32,4 @@ if __name__=='__main__':
         image,label=next(iter(batch))
         pred=predict(image)
         print("the Prediction of ",str(label.numpy())," is:",str(pred.numpy()))
-    print('The predition is:{}'.format(pred))
+    print('The predition is:{}'.format(pred.item()))
